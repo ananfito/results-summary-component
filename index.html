@@ -6,12 +6,17 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Results summary component</title>
+  <title>Results summary component | Frontend Mentor</title>
 
   <style>
+    @font-face {
+      font-family: HankenGrotesk;
+      src: url('./assets//fonts/HankenGrotesk-VariableFont_wght.ttf');
+    }
     :root {
       /* Main colors */
       --purple: rgb(96, 0, 208); /* results BG color */
+      --light-purple: rgb(120, 0, 255);
       --white: rgb(255, 255, 255); /* font color & summary BG color */
 
       /* Summary Colors */
@@ -22,33 +27,64 @@
       --light-gray: rgb(136, 135, 154); /* denominator color */
       --gray-blue: rgb(48, 56, 90); /* summary text & button color */
 
-
+      font-family: HankenGrotesk, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     }
 
-    .results { 
-      background-color: var(--purple);
+    /* BASE STYLES */
+
+    * {
+      margin: 0;
+    }
+
+    .large {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .denominator {
+      color: var(--light-gray);
+    }
+
+    .results {
+      background-color: var(--light-purple);
       color: var(--white);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+
+    .score-container {
+      background-color: var(--purple);
+      border-radius: 100%;
+      width: 100px;
+      height: 100px;
+    }
+
+    
+
+    footer { margin-top: 2em; }
 
     .attribution { 
       font-size: 11px; 
       text-align: center; 
     }
 
-    .attribution a { 
-      color: hsl(228, 45%, 44%); 
-    }
+    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
   <main>
     <section class="results">
-      Your Result
-      76
-      of 100
-      Great
-      You scored higher than 65% of the people who have taken these tests.
+      <h1>Your Result</h1>
+      <div class="score-container">
+        <p class="score">76</p>
+        <span class="denominator">of 100</span>
+      </div>
+      <p class="large">Great</p>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
     </section>
     
     <section class="summary">
@@ -66,8 +102,8 @@
   </main>
   
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://ananfito.dev" target="_blank">Anthony Nanfito</a>. View <a href="http://" target="_blank">source code</a>.
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> challenge
+    <a href="https://github.com/ananfito/results-summary-component" target="_blank">coded</a> by <a href="https://ananfito.dev" target="_blank">Anthony Nanfito</a>.
   </footer>
 </body>
 </html>

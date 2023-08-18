@@ -101,9 +101,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- <a href="mailto:msg.for.anthony.p6ht3@simplelogin.com?subject=Nice GitHub Project&body=Hey Anthony, I saw your GitHub project. Let's talk!">Email</a>
+- [LinkedIn](https://linkedin.com/in/anthonynanfito)
+- [Portfolio](https://ananfito.dev)
+- [Blog](https://blog.ananfito.dev)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
