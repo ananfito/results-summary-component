@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <style>
+    :root {
+      /* Main colors */
+      --purple: rgb(96, 0, 208); /* results BG color */
+      --white: rgb(255, 255, 255); /* font color & summary BG color */
+
+      /* Summary Colors */
+      --red: rgb(230, 76, 77); /* reaction color */
+      --yellow: rgb(252, 179, 4); /* memory color */
+      --green: rgb(0, 166, 139); /* verbal color */
+      --dark-blue: rgb(47, 27, 101); /* visual color */
+      --light-gray: rgb(136, 135, 154); /* denominator color */
+      --gray-blue: rgb(48, 56, 90); /* summary text & button color */
+
+
+    }
+
+    .results { 
+      background-color: var(--purple);
+      color: var(--white);
+    }
+
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+    }
+
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <section class="results">
+      Your Result
+      76
+      of 100
+      Great
+      You scored higher than 65% of the people who have taken these tests.
+    </section>
+    
+    <section class="summary">
+      Summary
+      Reaction
+      80 / 100
+      Memory
+      92 / 100
+      Verbal
+      61 / 100
+      Visual
+      72 / 100
+      Continue
+    </section>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://ananfito.dev" target="_blank">Anthony Nanfito</a>. View <a href="http://" target="_blank">source code</a>.
+  </footer>
+</body>
+</html>
