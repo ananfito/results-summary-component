@@ -14,7 +14,7 @@ const resultsHtml = data.map(category => {
           <img src=${category.icon} alt="lightning bolt icon" class="result-icon">
           <p>${category.category}</p>
         </div>
-        <p><span id="reaction-score">${category.score}</span><span class="denominator"> / 100</span></p>
+        <p><span id="${category.category}-score">${category.score}</span><span class="denominator"> / 100</span></p>
       </div>
   `
 })
