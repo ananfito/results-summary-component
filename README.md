@@ -26,16 +26,16 @@ Users should be able to:
 
 #### Desktop
 
-![](./images/screenshot_results-summary_desktop.png)
+![Desktop view of results summary component. Left side shows the average score with information comparing score to other participants. The right side breaks down the score into the following categories: reaction, memory, verbal, and visual.](./images/screenshot_results-summary_desktop.png)
 
 #### Mobile
 
-![](./images/screenshot_results-summary_mobile.png)
+![Mobile view of results summary component. The top section shows the average score with information comparing score to other participants. The bottom seciton breaks down the score into the following categories: reaction, memory, verbal, and visual.](./images/screenshot_results-summary_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/repsonsive-results-summary-component-no-figma-file-dyJ6ieWaFR
+- Live Site URL: https://ananfito.dev/results-summary-component/
 
 ## My process
 
